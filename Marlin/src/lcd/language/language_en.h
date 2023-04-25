@@ -123,11 +123,39 @@ namespace Language_en {
     LSTR MSG_PREHEAT_1_SETTINGS           = _UxGT("Preheat ") PREHEAT_1_LABEL _UxGT(" Conf");
     #ifdef PREHEAT_2_LABEL
       LSTR MSG_PREHEAT_2                  = _UxGT("Preheat ") PREHEAT_2_LABEL;
+      LSTR MSG_PREHEAT_2_H                = _UxGT("Preheat ") PREHEAT_2_LABEL " ~";
+      LSTR MSG_PREHEAT_2_END              = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" End");
+      LSTR MSG_PREHEAT_2_END_E            = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" End ~");
+      LSTR MSG_PREHEAT_2_ALL              = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" All");
+      LSTR MSG_PREHEAT_2_BEDONLY          = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" Bed");
       LSTR MSG_PREHEAT_2_SETTINGS         = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" Conf");
     #endif
     #ifdef PREHEAT_3_LABEL
       LSTR MSG_PREHEAT_3                  = _UxGT("Preheat ") PREHEAT_3_LABEL;
+      LSTR MSG_PREHEAT_3_H                = _UxGT("Preheat ") PREHEAT_3_LABEL " ~";
+      LSTR MSG_PREHEAT_3_END              = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" End");
+      LSTR MSG_PREHEAT_3_END_E            = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" End ~");
+      LSTR MSG_PREHEAT_3_ALL              = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" All");
+      LSTR MSG_PREHEAT_3_BEDONLY          = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" Bed");
       LSTR MSG_PREHEAT_3_SETTINGS         = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" Conf");
+    #endif
+    #ifdef PREHEAT_4_LABEL
+      LSTR MSG_PREHEAT_4                  = _UxGT("Preheat ") PREHEAT_4_LABEL;
+      LSTR MSG_PREHEAT_4_H                = _UxGT("Preheat ") PREHEAT_4_LABEL " ~";
+      LSTR MSG_PREHEAT_4_END              = _UxGT("Preheat ") PREHEAT_4_LABEL _UxGT(" End");
+      LSTR MSG_PREHEAT_4_END_E            = _UxGT("Preheat ") PREHEAT_4_LABEL _UxGT(" End ~");
+      LSTR MSG_PREHEAT_4_ALL              = _UxGT("Preheat ") PREHEAT_4_LABEL _UxGT(" All");
+      LSTR MSG_PREHEAT_4_BEDONLY          = _UxGT("Preheat ") PREHEAT_4_LABEL _UxGT(" Bed");
+      LSTR MSG_PREHEAT_4_SETTINGS         = _UxGT("Preheat ") PREHEAT_4_LABEL _UxGT(" Conf");
+    #endif
+    #ifdef PREHEAT_5_LABEL
+      LSTR MSG_PREHEAT_5                  = _UxGT("Preheat ") PREHEAT_5_LABEL;
+      LSTR MSG_PREHEAT_5_H                = _UxGT("Preheat ") PREHEAT_5_LABEL " ~";
+      LSTR MSG_PREHEAT_5_END              = _UxGT("Preheat ") PREHEAT_5_LABEL _UxGT(" End");
+      LSTR MSG_PREHEAT_5_END_E            = _UxGT("Preheat ") PREHEAT_5_LABEL _UxGT(" End ~");
+      LSTR MSG_PREHEAT_5_ALL              = _UxGT("Preheat ") PREHEAT_5_LABEL _UxGT(" All");
+      LSTR MSG_PREHEAT_5_BEDONLY          = _UxGT("Preheat ") PREHEAT_5_LABEL _UxGT(" Bed");
+      LSTR MSG_PREHEAT_5_SETTINGS         = _UxGT("Preheat ") PREHEAT_5_LABEL _UxGT(" Conf");
     #endif
     LSTR MSG_PREHEAT_M                    = _UxGT("Preheat $");
     LSTR MSG_PREHEAT_M_H                  = _UxGT("Preheat $ ~");
