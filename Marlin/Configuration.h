@@ -665,9 +665,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    #define DEFAULT_Kp  18.79
+    #define DEFAULT_Ki   1.33
+    #define DEFAULT_Kd  66.60
   #endif
 #endif
 
@@ -854,8 +854,8 @@
 
 #define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
 #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
-#define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
-#define THERMAL_PROTECTION_COOLER  // Enable thermal protection for the laser cooling
+//#define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
+//#define THERMAL_PROTECTION_COOLER  // Enable thermal protection for the laser cooling
 
 //===========================================================================
 //============================= Mechanical Settings =========================
@@ -2364,13 +2364,13 @@
 #define PREHEAT_3_TEMP_CHAMBER   35
 #define PREHEAT_3_FAN_SPEED       0 // Value from 0 to 255
 
-#define PREHEAT_4_LABEL         "Hotend Cleaning"
+#define PREHEAT_4_LABEL         "Cleaning"
 #define PREHEAT_4_TEMP_HOTEND   120
 #define PREHEAT_4_TEMP_BED        0
 #define PREHEAT_4_TEMP_CHAMBER    0
 #define PREHEAT_4_FAN_SPEED       0 // Value from 0 to 255
 
-#define PREHEAT_5_LABEL         "Nozzle Tightening"
+#define PREHEAT_5_LABEL         "Tightening"
 #define PREHEAT_5_TEMP_HOTEND   260
 #define PREHEAT_5_TEMP_BED        0
 #define PREHEAT_5_TEMP_CHAMBER    0
