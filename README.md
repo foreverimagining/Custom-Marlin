@@ -12,13 +12,15 @@
     <a href="https://fosstodon.org/@marlinfirmware"><img alt="Follow MarlinFirmware on Mastodon" src="https://img.shields.io/mastodon/follow/109450200866020466?domain=https%3A%2F%2Ffosstodon.org&logoColor=%2300B&style=social"></a>
 </p>
 
-Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
-Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
-
 **Changes made:**
 - Conformed to basic settings I was using in previous versions of Marlin with my Anet A8 3D printer
 - Enabled some new features that have been added since Marlin 1.1.9.1
 - Added Preheat Contants for "Hotend Cleaning" and "Nozzle Tightening" to more quickly heat the hotend to the usual temperature for regular tasks
+- Moved the Temperature Menu and the Cooldown and Preheat menu items to the top of their respective lists to make access faster and easier
+
+
+Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
+Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
 ## Marlin 2.1 Bugfix Branch
 
