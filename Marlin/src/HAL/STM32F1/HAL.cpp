@@ -1,10 +1,9 @@
 /**
  * Marlin 3D Printer Firmware
- *
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
- * Copyright (c) 2016 Bob Cousins bobcousins42@googlemail.com
- * Copyright (c) 2015-2016 Nico Tonnhofer wurstnase.reprap@gmail.com
- * Copyright (c) 2017 Victor Perez
+ *
+ * Based on Sprinter and grbl.
+ * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -314,7 +313,7 @@ enum ADCIndex : uint8_t {
   OPTITEM(HAS_JOY_ADC_Y, JOY_Y)
   OPTITEM(HAS_JOY_ADC_Z, JOY_Z)
   OPTITEM(POWER_MONITOR_CURRENT, POWERMON_CURRENT)
-  OPTITEM(POWER_MONITOR_VOLTAGE, POWERMON_VOLTS)
+  OPTITEM(POWER_MONITOR_VOLTAGE, POWERMON_VOLTAGE)
   ADC_COUNT
 };
 
@@ -382,7 +381,7 @@ void MarlinHAL::adc_start(const pin_t pin) {
     _TCASE(FILAMENT_WIDTH_SENSOR, FILWIDTH_PIN,              FILWIDTH)
     _TCASE(HAS_ADC_BUTTONS,       ADC_KEYPAD_PIN,            ADC_KEY)
     _TCASE(POWER_MONITOR_CURRENT, POWER_MONITOR_CURRENT_PIN, POWERMON_CURRENT)
-    _TCASE(POWER_MONITOR_VOLTAGE, POWER_MONITOR_VOLTAGE_PIN, POWERMON_VOLTS)
+    _TCASE(POWER_MONITOR_VOLTAGE, POWER_MONITOR_VOLTAGE_PIN, POWERMON_VOLTAGE)
   }
   adc_result = (adc_results[(int)pin_index] & 0xFFF) >> (12 - HAL_ADC_RESOLUTION); // shift out unused bits
 }
